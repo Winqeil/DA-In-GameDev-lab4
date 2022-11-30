@@ -136,9 +136,17 @@ public class Perceptron : MonoBehaviour {
 	}
 
 	void Start () {
-		Train(7);
+		Train(4);
 		Debug.Log("Test 0 0: " + CalcOutput(0,0));
-
+		Debug.Log("Test 0 1: " + CalcOutput(0,1));
+		Debug.Log("Test 1 0: " + CalcOutput(1,0));
+		Debug.Log("Test 1 1: " + CalcOutput(1,1));	
+	}
+	
+	void Update () {
+		
+	}
+}
 
 ```
 Далее была запущена работа перцептрона.
